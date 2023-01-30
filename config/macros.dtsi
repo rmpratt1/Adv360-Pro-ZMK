@@ -1,9 +1,3 @@
-macro_shift_tap_dance: macro_shift_tap_dance{
-compatible = "zmk,behavior-macro";
-label = "macro_shift_tap_dance";
-#binding-cells = <0>;
-bindings = ;
-};
 macro_lock: macro_lock{
 compatible = "zmk,behavior-macro";
 label = "macro_lock";
