@@ -33,16 +33,16 @@
     };
     
     // tap: sticky shift | double tap: caps_word | hold: shift
-    ssd: sticky_shift_dance {
+    ssd: super_shift_dance {
         compatible = "zmk,behavior-tap-dance";
-        label = "STICKY_SHIFT_DANCE";
+        label = "SUPER_SHIFT_DANCE";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
         bindings = <&sk LSHFT>, <&caps_word>;
     };  
-    ss: sticky_shift {
+    ss: super_shift {
         compatible = "zmk,behavior-hold-tap";
-        label = "STICKY_SHIFT";
+        label = "SUPER_SHIFT";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
         quick_tap_ms = <175>;
@@ -50,7 +50,53 @@
         bindings = <&mo>, <&ssd>;
     };
     
-
+    /*
+     * mod: CAPS_LOCK | tap: LCTRL | hold: LSHIFT
+     * ss: tap_dance_mod_tap {
+     *      compatible = "zmk,behavior-tap-dance";
+     *      label = "SUPER_SHIFT";
+     *      #binding-cells = <0>;
+     *      tapping-term-ms = <200>;
+     *      quick_tap_ms = <175>;
+     *      bindings = <&mt LSHIFT CAPSLOCK>, <&kp LCTRL>;
+     *  };
+     */
+    
+    // tap: left | double tap: home | hold: left
+    ld: left_dance {
+        compatible = "zmk,behavior-mod-tap";
+        label = "LEFT_DANCE";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&mt LEFT_ARROW >, <LC(LEFT_ARROW)>;
+    };  
+  
+    // tap: right | double tap: end
+    rd: right_dance {
+        compatible = "zmk,behavior-tap-dance";
+        label = "RIGHT_DANCE";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <RIGHT_ARROW>, <LC(RIGHT_ARROW)>;
+    };  
+    
+    // tap: up | double tap: beginning of file
+    ud: up_dance {
+        compatible = "zmk,behavior-tap-dance";
+        label = "UP_DANCE";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <UP_ARROW>, <LC(UP_ARROW)>;
+    };  
+    
+    // tap: down | double tap: end of file
+    ud: down_dance {
+        compatible = "zmk,behavior-tap-dance";
+        label = "DOWN_DANCE";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <DOWN_ARROW>, <LC(DOWN_ARROW)>;
+    };      
     
   };
 
