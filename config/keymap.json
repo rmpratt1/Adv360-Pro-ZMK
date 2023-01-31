@@ -2,25 +2,6 @@
   "keyboard": "adv360",
   "keymap": "default",
   "layout": "LAYOUT",
-  "behaviors": [ 
-      // tap: sticky shift | double tap: caps_word | hold: shift
-    //ssd: super_shift_dance {
-     //   compatible = "zmk,behavior-tap-dance";
-    //    label = "SUPER_SHIFT_DANCE";
-    //    #binding-cells = <0>;
-     //   tapping-term-ms = <200>;
-     //   bindings = <&sk LSHFT>, <&caps_word>;
-   // };  
- //   ss: super_shift {
-     //   compatible = "zmk,behavior-hold-tap";
-    //    label = "SUPER_SHIFT";
-    //    #binding-cells = <2>;
-    //    tapping-term-ms = <200>;
-   //     quick_tap_ms = <175>;
-   //     flavor = "balanced";
-   //     bindings = <&mo>, <&ssd>;
-   // };
-  ],
   "layer_names": [
     "base",
     "keypad",
