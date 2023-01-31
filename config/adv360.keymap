@@ -47,7 +47,7 @@
         tapping-term-ms = <200>;
         quick_tap_ms = <175>;
         flavor = "balanced";
-        bindings = <&mo>, <&sticky_shift_dance>;
+        bindings = <&mo>, <&ssd>;
     };
     
 
