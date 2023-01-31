@@ -110,7 +110,7 @@
    &kp TAB      &kp Q       &kp W   &kp E          &kp R           &kp T              &kp C_VOLUME_UP   &kp C_BRIGHTNESS_INC             &kp Y      &kp U      &kp I          &kp O          &kp P              &kp BSLH
    &kp ESC      &kp A       &kp S   &kp D          &kp F           &kp G            &kp C_VOLUME_DOWN           &kp LEFT_GUI  &kp LEFT_CONTROL                        &kp RIGHT_ALT  &kp RIGHT_GUI  &kp C_BRIGHTNESS_DEC     &kp H   &kp J      &kp K    &kp L  &kp SEMI  &kp SQT
      &none      &kp Z       &kp X   &kp C          &kp V           &kp B                        &none                  &none    &kp DOWN_ARROW      &none      &none   &kp UP_ARROW          &none                 &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH    &none
-     &mo 2  &kp GRAVE  &caps_word  &up_dance  &kp LG(SPACE)  &kp LEFT_SHIFT                &kp BACKSPACE         &kp LEFT_ARROW   &kp RIGHT_ARROW  &kp ENTER  &kp SPACE  &kp LG(LC(Q))          &ss              &kp LBKT  &kp RBKT   &mo 3
+     &mo 2  &kp GRAVE  &caps_word     &ud  &kp LG(SPACE)  &kp LEFT_SHIFT                &kp BACKSPACE         &kp LEFT_ARROW   &kp RIGHT_ARROW  &kp ENTER  &kp SPACE  &kp LG(LC(Q))          &ss              &kp LBKT  &kp RBKT   &mo 3
             >;
         };
 
