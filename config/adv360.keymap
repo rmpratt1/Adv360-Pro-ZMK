@@ -32,13 +32,13 @@
         bindings = <&kp>, <&kp>;
     };
     
-    // tap: sticky shift | double tap: caps_word | tripple tap: cancel caps_word | hold: shift
+    // tap: sticky shift | double tap: caps_word | hold: shift
     ssd: sticky_shift_dance {
         compatible = "zmk,behavior-tap-dance";
         label = "STICKY_SHIFT_DANCE";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
-        bindings = <&sk LSHFT>, <&caps_word>, <CANCEL>;
+        bindings = <&sk LSHFT>, <&caps_word>;
     };  
     ss: sticky_shift {
         compatible = "zmk,behavior-hold-tap";
