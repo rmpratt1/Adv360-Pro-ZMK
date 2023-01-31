@@ -68,7 +68,7 @@
         label = "LEFT_DANCE";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        bindings = <&mt LEFT_ARROW >, <LC(LEFT_ARROW)>;
+        bindings = <&kp LEFT_ARROW >, <&kp LC(LEFT_ARROW)>;
     };  
   
     // tap: right | double tap: end
@@ -77,7 +77,7 @@
         label = "RIGHT_DANCE";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        bindings = <RIGHT_ARROW>, <LC(RIGHT_ARROW)>;
+        bindings = <&kp RIGHT_ARROW>, <&kp LC(RIGHT_ARROW)>;
     };  
     
     // tap: up | double tap: beginning of file
@@ -86,7 +86,7 @@
         label = "UP_DANCE";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        bindings = <UP_ARROW>, <LC(UP_ARROW)>;
+        bindings = <&kp UP_ARROW>, <&kp LC(UP_ARROW)>;
     };  
     
     // tap: down | double tap: end of file
@@ -95,7 +95,7 @@
         label = "DOWN_DANCE";
         #binding-cells = <2>;
         tapping-term-ms = <200>;
-        bindings = <DOWN_ARROW>, <LC(DOWN_ARROW)>;
+        bindings = <&kp DOWN_ARROW>, <&kp LC(DOWN_ARROW)>;
     };      
     
   };
