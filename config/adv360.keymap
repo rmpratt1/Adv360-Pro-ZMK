@@ -73,7 +73,7 @@
   
     // tap: right | double tap: end
     rd: right_dance {
-        compatible = "zmk,behavior-tap-dance";
+        compatible = "zmk,behavior-mod-tap";
         label = "RIGHT_DANCE";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
@@ -82,7 +82,7 @@
     
     // tap: up | double tap: beginning of file
     ud: up_dance {
-        compatible = "zmk,behavior-tap-dance";
+        compatible = "zmk,behavior-mod-tap";
         label = "UP_DANCE";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
@@ -91,7 +91,7 @@
     
     // tap: down | double tap: end of file
     dd: down_dance {
-        compatible = "zmk,behavior-tap-dance";
+        compatible = "zmk,behavior-mod-tap";
         label = "DOWN_DANCE";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
