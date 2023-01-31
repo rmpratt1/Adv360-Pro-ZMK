@@ -66,7 +66,7 @@
     ld: left_dance {
         compatible = "zmk,behavior-mod-tap";
         label = "LEFT_DANCE";
-        #binding-cells = <0>;
+        #binding-cells = <2>;
         tapping-term-ms = <200>;
         bindings = <&mt LEFT_ARROW >, <LC(LEFT_ARROW)>;
     };  
@@ -75,7 +75,7 @@
     rd: right_dance {
         compatible = "zmk,behavior-mod-tap";
         label = "RIGHT_DANCE";
-        #binding-cells = <0>;
+        #binding-cells = <2>;
         tapping-term-ms = <200>;
         bindings = <RIGHT_ARROW>, <LC(RIGHT_ARROW)>;
     };  
@@ -84,7 +84,7 @@
     ud: up_dance {
         compatible = "zmk,behavior-mod-tap";
         label = "UP_DANCE";
-        #binding-cells = <0>;
+        #binding-cells = <2>;
         tapping-term-ms = <200>;
         bindings = <UP_ARROW>, <LC(UP_ARROW)>;
     };  
@@ -93,7 +93,7 @@
     dd: down_dance {
         compatible = "zmk,behavior-mod-tap";
         label = "DOWN_DANCE";
-        #binding-cells = <0>;
+        #binding-cells = <2>;
         tapping-term-ms = <200>;
         bindings = <DOWN_ARROW>, <LC(DOWN_ARROW)>;
     };      
